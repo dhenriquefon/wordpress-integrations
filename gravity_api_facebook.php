@@ -34,7 +34,8 @@
 				'ct' => $cidade,
 				'st' => $estado
 			),
-			'event_source_url' => "https://idealenergiasolar.com.br/promocao-facebook-concluida-dp-acima-300/"
+			'event_source_url' => "https://idealenergiasolar.com.br/promocao-facebook-concluida-dp-acima-300/",
+			'action_source' => "website"
 		);
 
 		$inputs = json_encode($array);
